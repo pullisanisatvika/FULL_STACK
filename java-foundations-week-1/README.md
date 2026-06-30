@@ -44,10 +44,56 @@ By the end of this week, I should be able to:
 Topics covered:
 
 - Variables:
-Variables acts as a container that could store values. For example,(int age = 25;|double height = 6.1;|String name = "Harish";|boolean isStudent = true;). Considering java, Java is strongly typed. That means every variable must have a data type. For example, (int marks = 90;),where,int is the datatype, marks is the variable name and 90 is the value.
-- Primitive data types
-- `String`
+Variables acts as a container that could store values.
+For example,(int age = 25;|double height = 6.1;|String name = "Harish";|boolean isStudent = true;).
+Considering java, Java is strongly typed. That means every variable must have a data type.
+For example, (int marks = 90;),where,int is the datatype, marks is the variable name and 90 is the value. 
+- Primitive data types:
+There are 5 data types. They include int, char, string, double and boolean which corresponds to whole numbers, single character, text, decimal number ,and true/false.
+
+For example,
+
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter your name: ");
+        String name = scanner.nextLine();
+
+        System.out.print("Enter your age: ");
+        int age = scanner.nextInt();
+
+        scanner.nextLine(); // clears leftover enter key
+
+        System.out.print("Enter your city: ");
+        String city = scanner.nextLine();
+
+        System.out.println("Hello, " + name + "!");
+        System.out.println("Your age is " + age + "!");
+        System.out.println("Your city is " + city + "!");
+
+        scanner.close();
+    }
+}
 - Output using `System.out.println()`
+ CASE 1:Simple
+  System.out.println("Hello World");
+ CASE 2:To combine text and variables:
+  String name = "Harish";
+  int age = 25;
+  
+  System.out.println("My name is " + name + " and I am " + age + " years old.");
+######################################
+- Object vs Function vs Variable vs Class
+To understand the code wwe need to understand the four pillars(Object vs Function vs Variable vs Class). These four are connected, but they are not the same thing.
+CLASS->Blueprint/template
+OBJECT->Real thing created from the class
+VARIABLE->Name used to store a value or reference
+FUNCTION/METHOD->Block of code that performs an action
+In Java, functions inside a class are usually called methods.
 - Combining text and variables
 - Basic naming rules
 
