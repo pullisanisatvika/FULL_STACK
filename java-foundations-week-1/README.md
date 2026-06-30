@@ -44,12 +44,12 @@ By the end of this week, I should be able to:
 Topics covered:
 
 - Variables:
-  Variables acts as a container that could store values. For example,
-    int age = 25;
-    double height = 6.1;
-    String name = "Harish";
-    boolean isStudent = true;
-  Considering java, Java is strongly typed. That means every variable must have a data type.For example, (int marks = 90;),     where,int is the datatype, marks is the variable name and 90 is the value.
+  -Variables acts as a container that could store values. For example,
+    -int age = 25;
+    -double height = 6.1;
+    -String name = "Harish";
+    -boolean isStudent = true;
+  -Considering java, Java is strongly typed. That means every variable must have a data type.For example, (int marks = 90;),    -where,int is the datatype, marks is the variable name and 90 is the value.
 - Primitive data types
 - `String`
 - Output using `System.out.println()`
